@@ -1,0 +1,13 @@
+class Player, Board, Game
+
+Player -> Name
+       -> Symbol(X,0);
+
+Board -> initalize Board
+      -> display Board
+      -> update Board
+      -> check if any Player Won or not
+
+Game -> Game Loop
+     -> handle Players Turn
+     -> Game States won/Draw/Still playing
